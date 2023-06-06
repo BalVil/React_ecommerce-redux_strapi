@@ -5,53 +5,71 @@ import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import "./Navbar.scss";
+import EN from "../../images/en.png";
+import Logo from "../../images/elvisies.svg";
 
 function Navbar() {
   return (
     <div className="navbar">
       <div className="wrapper">
-        <ul className="left">
-          <li className="item">
-            <img src="/img/en.png" alt="UK/USA flag" />
+        <ul className="navbarLeft">
+          <li className="navbarItem">
+            <img src={EN} alt="UK/USA flag" />
             <KeyboardArrowDownIcon />
           </li>
-          <li className="item">
+          <li className="navbarItem">
             <span>USD</span>
             <KeyboardArrowDownIcon />
           </li>
-          <li className="item">
-            <Link to="/products/1">Women</Link>
+          <li className="navbarItem">
+            <Link className="navbarLink" to="/products/1">
+              Women
+            </Link>
           </li>
-          <li className="item">
-            <Link to="/products/1">Men</Link>
+          <li className="navbarItem">
+            <Link className="navbarLink" to="/products/1">
+              Men
+            </Link>
           </li>
-          <li className="item">
-            <Link to="/products/1">Children</Link>
+          <li className="navbarItem">
+            <Link className="navbarLink" to="/products/1">
+              Children
+            </Link>
           </li>
         </ul>
-        <div className="center">
-          <Link to="/">LOGO</Link>
+        <div className="navbarCenter">
+          <Link className="navbarLink" to="/">
+            <img src={Logo} alt="logo" width="80" />
+          </Link>
         </div>
-        <ul className="right">
-          <li className="item">
-            <Link to="/">Homepage</Link>
+        <ul className="navbarRight">
+          <li className="navbarItem">
+            <Link className="navbarLink" to="/">
+              Homepage
+            </Link>
           </li>
-          <li className="item">
-            <Link to="/">About</Link>
+          <li className="navbarItem">
+            <Link className="navbarLink" to="/">
+              About
+            </Link>
           </li>
-          <li className="item">
-            <Link to="/">Contact</Link>
+          <li className="navbarItem">
+            <Link className="navbarLink" to="/">
+              Contact
+            </Link>
           </li>
-          <li className="item">
-            <Link to="/">Stores</Link>
+          <li className="navbarItem">
+            <Link className="navbarLink" to="/">
+              Stores
+            </Link>
           </li>
-          <li className="icons">
+          <li className="navbarIcons">
             <SearchIcon />
             <PersonOutlineOutlinedIcon />
             <FavoriteBorderOutlinedIcon />
             <div className="cartIcon">
               <ShoppingCartOutlinedIcon />
-              <span>0</span>
+              <span className="cartOrders">0</span>
             </div>
           </li>
         </ul>

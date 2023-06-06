@@ -1,3 +1,5 @@
+@import "../../styles/vars.scss";
+
 .navbar {
   height: 80px;
 }
@@ -9,20 +11,51 @@
   padding: 12px 32px;
 }
 
-.left,
-.right {
+.navbarLeft,
+.navbarRight {
   display: flex;
   align-items: center;
   gap: 24px;
   font-size: 18px;
 }
 
-.center {
+.navbarCenter {
   font-size: 32px;
   letter-spacing: 0.06em;
 }
 
-.item {
+.navbarItem {
   display: flex;
   align-items: center;
+}
+
+.navbarLink {
+  color: inherit;
+}
+
+.navbarIcons {
+  display: flex;
+  gap: 12px;
+  color: var(--color-gray);
+  cursor: pointer;
+}
+
+.cartIcon {
+  position: relative;
+}
+
+.cartOrders {
+  position: absolute;
+  right: -9px;
+  top: -9px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  font-size: 12px;
+  background-color: var(--color-accent);
+  color: var(--color-white);
 }
