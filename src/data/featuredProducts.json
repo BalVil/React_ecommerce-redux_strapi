@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "image": "../images/featuredProducts/david-bowie-the-rise-and-fall-of-ziggy-stardus.jpg",
-    "image2": "../images/featuredProducts/david-bowie-the-rise-and-fall-of-ziggy-stardus2.jpg",
+    "image": "/img/featuredProducts/david-bowie-the-rise-and-fall-of-ziggy-stardus.jpg",
+    "image2": "/img/featuredProducts/david-bowie-the-rise-and-fall-of-ziggy-stardus2.jpg",
     "title": "David Bowie 'The Rise and fall of Ziggy Stardust' 500 Pce Jigsaw Puzzle",
     "isNew": true,
     "oldPrice": 18.49,
@@ -10,8 +10,8 @@
   },
   {
     "id": 2,
-    "image": "../images/featuredProducts/nirvana-nevermind-500-piece-jigsaw-puzzle.jpg",
-    "image2": "../images/featuredProducts/nirvana-nevermind-500-piece-jigsaw-puzzle2.jpg",
+    "image": "/img/featuredProducts/nirvana-nevermind-500-piece-jigsaw-puzzle.jpg",
+    "image2": "/img/featuredProducts/nirvana-nevermind-500-piece-jigsaw-puzzle2.jpg",
     "title": "Nirvana 'Nevermind' 500 Piece Jigsaw Puzzle",
     "isNew": true,
     "oldPrice": 18.59,
@@ -19,8 +19,8 @@
   },
   {
     "id": 3,
-    "image": "../images/featuredProducts/queen-bohemian-rhapsody-500-piece-jigsaw-puzzle.jpg",
-    "image2": "../images/featuredProducts/queen-bohemian-rhapsody-500-piece-jigsaw-puzzle2.jpg",
+    "image": "/img/featuredProducts/queen-bohemian-rhapsody-500-piece-jigsaw-puzzle.jpg",
+    "image2": "/img/featuredProducts/queen-bohemian-rhapsody-500-piece-jigsaw-puzzle2.jpg",
     "title": "Queen Bohemian Rhapsody 500 piece Jigsaw Puzzle",
     "isNew": true,
     "oldPrice": 18.59,
@@ -28,8 +28,8 @@
   },
   {
     "id": 4,
-    "image": "../images/featuredProducts/gibson-335-dave-grohl-model-keyring.jpg",
-    "image2": "../images/featuredProducts/gibson-335-dave-grohl-model-keyring2.jpg",
+    "image": "/img/featuredProducts/gibson-335-dave-grohl-model-keyring.jpg",
+    "image2": "/img/featuredProducts/gibson-335-dave-grohl-model-keyring2.jpg",
     "title": "Gibson 335 Dave GROHL Model Keyring by GF",
     "isNew": true,
     "oldPrice": 9.99,
@@ -37,8 +37,8 @@
   },
   {
     "id": 5,
-    "image": "../images/featuredProducts/notebook-a5-musical-instruments-by-quire.jpg",
-    "image2": "../images/featuredProducts/notebook-a5-musical-instruments-by-quire2.jfif",
+    "image": "/img/featuredProducts/notebook-a5-musical-instruments-by-quire.jpg",
+    "image2": "/img/featuredProducts/notebook-a5-musical-instruments-by-quire2.jfif",
     "title": "Notebook - A5 Musical Instruments by Quire",
     "isNew": true,
     "oldPrice": 6.59,
@@ -46,8 +46,8 @@
   },
   {
     "id": 6,
-    "image": "../images/featuredProducts/abba-dancing-queen-card.jpg",
-    "image2": "../images/featuredProducts/nirvana-nevermind-puzzle2.jpg",
+    "image": "/img/featuredProducts/abba-dancing-queen-card.jpg",
+    "image2": "/img/featuredProducts/nirvana-nevermind-puzzle2.jpg",
     "title": "ABBA 'Dancing Queen' Card",
     "isNew": true,
     "oldPrice": 4.59,
