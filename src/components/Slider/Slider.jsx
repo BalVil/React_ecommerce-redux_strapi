@@ -36,10 +36,10 @@ function Slider() {
       </ul>
       <ul className="sliderIcons">
         <li className="sliderIcon" onClick={prevSlide}>
-          <WestOutlinedIcon />
+          <WestOutlinedIcon color="secondary" />
         </li>
         <li className="sliderIcon" onClick={nextSlide}>
-          <EastOutlinedIcon />
+          <EastOutlinedIcon color="secondary" />
         </li>
       </ul>
     </div>

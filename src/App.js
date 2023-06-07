@@ -1,4 +1,6 @@
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { ToastContainer, Slide } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Product from "./pages/Product/Product";
 import Products from "./pages/Products/Products";
 import Home from "./pages/Home/Home";
@@ -8,11 +10,12 @@ import "./styles/global.scss";
 
 const Layout = () => {
   return (
-    <div className="app">
+    <>
       <Navbar />
       <Outlet />
       <Footer />
-    </div>
+      <ToastContainer autoClose={2000} transition={Slide} />
+    </>
   );
 };
 const router = createBrowserRouter([

@@ -6,10 +6,10 @@ function Categories() {
     <div className="categories">
       <div className="col">
         <div className="row">
-          <img src="/img/categories/gift_sets.jpg" alt="gift sets" />
+          <img src="/img/categories/gifts.jpg" alt="gifts" />
           <button>
             <Link to="/products/1" className="categoriesLink">
-              Gift Sets
+              Gifts
             </Link>
           </button>
         </div>

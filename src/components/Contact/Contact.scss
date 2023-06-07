@@ -1,0 +1,35 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+
+  background-color: var(--color-accent);
+  color: var(--color-white);
+}
+
+.contactWraper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contactInput {
+  padding: 10px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.contactBtn {
+  padding: 10px;
+  color: var(--color-white);
+  background: var(--color-dark);
+  border-radius: 0 5px 5px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.contactIcons {
+  display: flex;
+  gap: 8px;
+}

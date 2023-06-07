@@ -37,10 +37,12 @@
 
   cursor: pointer;
   border: none;
-  background-color: var(--color-white);
+  background-color: rgba(255, 255, 255, 0.8);
   text-transform: uppercase;
   font-weight: 500;
 }
 
 .categoriesLink {
+  font-weight: 500;
+  font-size: 16px;
 }
