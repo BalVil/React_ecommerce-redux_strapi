@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "image": "/img/gifts/david-bowie-x-ray-mug-tin-set-by-pym-5413-p.jpg",
+    "title": "David Bowie (X-Ray) Mug Tin Set by PYM",
+    "price": 11.9
+  },
+  {
+    "id": 2,
+    "image": "/img/gifts/guitar-tie-clip-cufflinks-set-by-onyx-art-1607-dv-p.jpg",
+    "title": "Guitar Tie Clip & Cufflinks Set by Onyx Art",
+    "price": 19.99
+  },
+  {
+    "id": 3,
+    "image": "/img/gifts/acoustic-guitar-vinyl-12-x22-lp-clock.-6173-p.jpg",
+    "title": "Acoustic Guitar Vinyl 12' LP Clock.",
+    "oldPrice": 24.0,
+    "price": 22.59
+  },
+  {
+    "id": 4,
+    "image": "/img/gifts/12inch-lp-wall-clock-by-hot-house-2799-p.jpg",
+    "title": "12inch LP Wall Clock by Hot House",
+    "oldPrice": 23.59,
+    "price": 22.29
+  },
+  {
+    "id": 5,
+    "image": "/img/gifts/chopping-board-chopin-bored-by-mgc-1317-p.jpg",
+    "title": "Chopping Board - Chopin Bored by MGC",
+    "price": 8.99
+  },
+  {
+    "id": 6,
+    "image": "/img/gifts/cushion-cover-synthesizer-by-mygifts-3741-p.jpg",
+    "title": "Cushion Cover - Synthesizer by Mygifts",
+    "oldPrice": 18.89,
+    "price": 17.69
+  }
+]
