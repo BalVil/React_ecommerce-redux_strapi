@@ -1,31 +1,33 @@
 import { useState } from "react";
+import { useParams } from "react-router-dom";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import BalanceIcon from "@mui/icons-material/Balance";
-import featuredItems from "../../data/featuredProducts.json";
+import bestSellingItems from "../../data/bestSellingProducts.json";
 import "./Product.scss";
 
 function Product() {
-  const [selectedImg, setSelectedImg] = useState("img");
+  const [selectedImg, setSelectedImg] = useState(0);
   const [quantity, setQuantity] = useState(1);
+  const { id } = useParams();
 
   return (
     <div className="product">
       <div className="productLeft">
         <div className="productImages">
           <img
-            src={featuredItems[0].image}
+            src={bestSellingItems[0].image}
             alt=""
             onClick={() => setSelectedImg(0)}
           />
           <img
-            src={featuredItems[1].image}
+            src={bestSellingItems[1].image}
             alt=""
             onClick={() => setSelectedImg(1)}
           />
         </div>
         <div className="mainImg">
-          <img src={featuredItems[selectedImg]?.image} alt="" />
+          <img src={bestSellingItems[selectedImg]?.image} alt="" />
         </div>
       </div>
       <div className="productRight">
@@ -54,7 +56,7 @@ function Product() {
         </div>
         <button className="btn">
           <AddShoppingCartIcon />
-          ADD TO CART
+          ORDER
         </button>
         <ul className="linkList">
           <li className="linkItem">

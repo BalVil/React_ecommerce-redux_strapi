@@ -1,16 +1,16 @@
 import Categories from "../../components/Categories/Categories";
-import Contact from "../../components/Contact/Contact";
-import FeaturedProducts from "../../components/FeaturedProducts/FeaturedProducts";
+import BeInTouch from "../../components/BeInTouch/BeInTouch";
+import BestSellingProducts from "../../components/BestSellingProducts/BestSellingProducts";
 import Slider from "../../components/Slider/Slider";
 
 function Home() {
   return (
     <div className="home">
       <Slider />
-      <FeaturedProducts type="featured" />
+      <BestSellingProducts type="bestSelling" />
       <Categories />
-      <FeaturedProducts type="trending" />
-      <Contact />
+      <BestSellingProducts type="trending" />
+      <BeInTouch />
     </div>
   );
 }

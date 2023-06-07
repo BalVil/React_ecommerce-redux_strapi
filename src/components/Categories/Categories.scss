@@ -23,7 +23,7 @@
   overflow: hidden;
 }
 
-.row button {
+.categoriesLink {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -32,17 +32,18 @@
   width: fit-content;
   min-width: 100px;
   height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: auto;
   padding: 8px;
 
   cursor: pointer;
   border: none;
   background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  vertical-align: middle;
   text-transform: uppercase;
-  font-weight: 500;
-}
-
-.categoriesLink {
   font-weight: 500;
   font-size: 16px;
 }

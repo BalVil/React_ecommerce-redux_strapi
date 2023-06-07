@@ -1,4 +1,4 @@
-.contact {
+.beInTouch {
   display: flex;
   justify-content: center;
   padding: 16px;
@@ -7,20 +7,20 @@
   color: var(--color-white);
 }
 
-.contactWraper {
+.beInTouchWraper {
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.contactInput {
+.beInTouchInput {
   padding: 10px;
   border: none;
   border-radius: 4px 0 0 4px;
 }
 
-.contactBtn {
+.beInTouchBtn {
   padding: 10px;
   color: var(--color-white);
   background: var(--color-dark);
@@ -29,7 +29,16 @@
   cursor: pointer;
 }
 
-.contactIcons {
+.iconList {
   display: flex;
-  gap: 8px;
+  gap: 12px;
+}
+
+.beInTouchIcon {
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: var(--color-gray);
+  }
 }

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Categories.scss";
 
 function Categories() {
@@ -7,29 +7,26 @@ function Categories() {
       <div className="col">
         <div className="row">
           <img src="/img/categories/gifts.jpg" alt="gifts" />
-          <button>
-            <Link to="/products/1" className="categoriesLink">
-              Gifts
-            </Link>
-          </button>
+
+          <NavLink to="/products/1" className="categoriesLink">
+            Gifts
+          </NavLink>
         </div>
         <div className="row">
           <img src="/img/categories/jewellery.jpg" alt="jewellery" />
-          <button>
-            <Link to="/products/1" className="categoriesLink">
-              Jewellery
-            </Link>
-          </button>
+
+          <NavLink to="/products/1" className="categoriesLink">
+            Jewellery
+          </NavLink>
         </div>
       </div>
       <div className="col">
         <div className="row">
           <img src="/img/categories/accessories.jpg" alt="accessories" />
-          <button>
-            <Link to="/products/1" className="categoriesLink">
-              Accessories
-            </Link>
-          </button>
+
+          <NavLink to="/products/1" className="categoriesLink">
+            Accessories
+          </NavLink>
         </div>
       </div>
       <div className="col col-large">
@@ -37,31 +34,28 @@ function Categories() {
           <div className="col">
             <div className="row">
               <img src="/img/categories/clothing.jpg" alt="clothing" />
-              <button>
-                <Link to="/products/1" className="categoriesLink">
-                  Clothing
-                </Link>
-              </button>
+
+              <Link to="/products/1" className="categoriesLink">
+                Clothing
+              </Link>
             </div>
           </div>
           <div className="col">
             <div className="row">
               <img src="/img/categories/3d_cards.jpg" alt="3d cards" />
-              <button>
-                <Link to="/products/1" className="categoriesLink">
-                  3D Cards
-                </Link>
-              </button>
+
+              <Link to="/products/1" className="categoriesLink">
+                3D Cards
+              </Link>
             </div>
           </div>
         </div>
         <div className="row">
           <img src="/img/categories/memorabilia2.jpg" alt="memorabilia" />
-          <button>
-            <Link to="/products/1" className="categoriesLink">
-              Memorabilia
-            </Link>
-          </button>
+
+          <Link to="/products/1" className="categoriesLink">
+            Memorabilia
+          </Link>
         </div>
       </div>
     </div>

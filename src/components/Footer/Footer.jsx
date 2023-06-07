@@ -1,69 +1,101 @@
+import { useState } from "react";
+import GDPR from "components/FooterModals/GDPR";
+import Terms from "components/FooterModals/Terms";
+import Privacy from "components/FooterModals/Privacy";
+import About from "components/FooterModals/AboutUs";
+import Contact from "components/FooterModals/ContactUs";
+import Return from "components/FooterModals/Return";
+import Delivery from "components/FooterModals/Delivery";
+import Warranty from "components/FooterModals/Warranty";
+
 import Payment from "../../images/payment.png";
-import Logo from "../../images/elvisies.svg";
+import Logo from "../../images/logo.png";
 import "./Footer.scss";
 
 function Footer() {
+  const [isOpenGDPR, setIsOpenGDPR] = useState(false);
+  const [isOpenTerms, setIsOpenTerms] = useState(false);
+  const [isOpenPrivacy, setIsOpenPrivacy] = useState(false);
+  const [isOpenAbout, setIsOpenAbout] = useState(false);
+  const [isOpenContact, setIsOpenContact] = useState(false);
+  const [isOpenReturn, setIsOpenReturn] = useState(false);
+  const [isOpenDelivery, setIsOpenDelivery] = useState(false);
+  const [isOpenWarranty, setIsOpenWarranty] = useState(false);
+
   return (
-    <div className="footer">
-      <ul className="footerTop">
-        <li className="footerItem">
-          <h2>Categories</h2>
-          <span>Women</span>
-          <span>Men</span>
-          <span>Shoes</span>
-          <span>Accessories</span>
-          <span>New Arrivals</span>
-        </li>
-        <li className="footerItem">
-          <h2>Links</h2>
-          <span>FAQ</span>
-          <span>Pages</span>
-          <span>Stores</span>
-          <span>Compare</span>
-          <span>Cookies</span>
-        </li>
-        <li className="footerItem">
-          <h2>About</h2>
-          <span>
-            Elvisies.com is your one-stop shop for music-related gifts! We are a
-            group of music enthusiasts who believe that nothing beats sharing
-            the joy of music with others. Our love of music began at a young age
-            and has remained a driving force in everything we do. We founded
-            Elvisies.com because we wanted to create a place where music fans
-            like us could find unique and fun gifts that celebrated their
-            passion for music. At Elvisies.com, we believe that music has the
-            power to unite, inspire, and uplift people. That's why we're
-            committed to providing a diverse range of high-quality products that
-            will make you happy.
-          </span>
-        </li>
-        <li className="footerItem">
-          <h2>Contact</h2>
-          <span>
-            We love hearing from our customers! Please contact us if you have
-            any questions, feedback, or concerns. You can reach us by email at
-            info@elvisies.com or by completing the contact form on our website.
-            Our customer service team will respond to your inquiry as soon as
-            possible, usually within 24 hours. You can also follow us on social
-            media to stay up to date on our latest news, promotions, and product
-            releases.
-          </span>
-        </li>
-      </ul>
-      <ul className="footerBottom">
-        <li className="footerLeft">
-          <span className="footerLogo">
-            <img src={Logo} alt="logo" width="60" />
-          </span>
-          <span className="copyright">
-            Elvisies.com&copy; 2022-2023 All rights reserved
-          </span>
-        </li>
-        <li className="footerRight">
-          <img src={Payment} alt="payment options" />
-        </li>
-      </ul>
-    </div>
+    <>
+      <footer className="footer" id="footer">
+        <ul className="footerTop">
+          <li className="footerItem">
+            <h2>Customer Service</h2>
+            <a href="#footer" onClick={() => setIsOpenGDPR(true)}>
+              GDPR
+            </a>
+            <a href="#footer" onClick={() => setIsOpenTerms(true)}>
+              Terms & Conditions
+            </a>
+            <a href="#footer" onClick={() => setIsOpenPrivacy(true)}>
+              Privacy Policy
+            </a>
+            <a href="#footer">Products</a>
+          </li>
+          <li className="footerItem">
+            <h2>Links</h2>
+            <a href="#footer" onClick={() => setIsOpenAbout(true)}>
+              About us
+            </a>
+            <a href="#footer" onClick={() => setIsOpenContact(true)}>
+              Contact us
+            </a>
+            <a href="#footer">Orders</a>
+            <a href="#footer" onClick={() => setIsOpenReturn(true)}>
+              Returns
+            </a>
+            <a href="#footer" onClick={() => setIsOpenDelivery(true)}>
+              Delivery info
+            </a>
+            <a href="#footer" onClick={() => setIsOpenWarranty(true)}>
+              Warranty info
+            </a>
+          </li>
+          <li className="footerItem">
+            <h2>About</h2>
+            <span>
+              We are passionate about music and believe that it can bring joy,
+              inspiration, and connection to people from all walks of life. We
+              have a wide selection of products inspired by music legends,
+              including Elvis Presley, in our store. Elvis Presley, we believe,
+              was not only a talented musician, but also an icon who embodies
+              the power of music to unite people and break down barriers. That
+              is why we have a selection of Elvis-inspired gifts in our catalog,
+              such as t-shirts, posters, and collectibles that honor his music
+              and legacy.
+            </span>
+          </li>
+        </ul>
+        <ul className="footerBottom">
+          <li className="footerLeft">
+            <span className="footerLogo">
+              <img src={Logo} alt="logo" />
+            </span>
+            <span className="copyright">
+              Elvisies.com&copy; 2022-2023 All rights reserved
+            </span>
+          </li>
+          <li className="footerRight">
+            <img src={Payment} alt="payment options" />
+          </li>
+        </ul>
+      </footer>
+      {isOpenGDPR && <GDPR showGDPR={setIsOpenGDPR} />}
+      {isOpenTerms && <Terms showTerms={setIsOpenTerms} />}
+      {isOpenPrivacy && <Privacy showPrivacy={setIsOpenPrivacy} />}
+      {isOpenAbout && <About showAbout={setIsOpenAbout} />}
+      {isOpenContact && <Contact showContact={setIsOpenContact} />}
+      {isOpenReturn && <Return showReturn={setIsOpenReturn} />}
+      {isOpenDelivery && <Delivery showDelivery={setIsOpenDelivery} />}
+      {isOpenWarranty && <Warranty showWarranty={setIsOpenWarranty} />}
+    </>
   );
 }
 

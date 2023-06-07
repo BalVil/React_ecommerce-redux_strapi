@@ -6,9 +6,9 @@ function Cart() {
     {
       id: 1,
       image:
-        "/img/featuredProducts/david-bowie-the-rise-and-fall-of-ziggy-stardus.jpg",
+        "/img/BestSellingProducts/david-bowie-the-rise-and-fall-of-ziggy-stardus.jpg",
       image2:
-        "/img/featuredProducts/david-bowie-the-rise-and-fall-of-ziggy-stardus2.jpg",
+        "/img/BestSellingProducts/david-bowie-the-rise-and-fall-of-ziggy-stardus2.jpg",
       title:
         "David Bowie 'The Rise and fall of Ziggy Stardust' 500 Pce Jigsaw Puzzle",
       desc: "David Bowie’s “The Rise and Fall of Ziggy Stardust and the Spiders from Mars” 500 piece jigsaw puzzle making a great music gift.",
@@ -18,8 +18,8 @@ function Cart() {
     },
     {
       id: 2,
-      image: "/img/featuredProducts/cello-sterling-silver-charm.jpg",
-      image2: "/img/featuredProducts/cello-sterling-silver-charm2.jpg",
+      image: "/img/BestSellingProducts/cello-sterling-silver-charm.jpg",
+      image2: "/img/BestSellingProducts/cello-sterling-silver-charm2.jpg",
       title: "Cello Sterling Silver Charm",
       desc: "Cello sterling silver charm with fantastic quality and detail making for any collector & nice music gift for any musician or music teacher or music student.",
       isNew: true,

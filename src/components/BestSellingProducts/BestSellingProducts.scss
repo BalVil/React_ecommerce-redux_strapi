@@ -1,25 +1,25 @@
-.featured {
+.bestSelling {
   margin: 100px 200px;
 }
 
-.featuredTop {
+.bestSellingTop {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 50px;
 }
 
-.featuredTitle {
+.bestSellingTitle {
   flex: 2;
   text-transform: capitalize;
 }
 
-.featuredText {
+.bestSellingText {
   flex: 3;
   color: var(--color-gray);
 }
 
-.featuredBottom {
+.bestSellingBottom {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
