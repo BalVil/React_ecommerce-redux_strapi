@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { useSelector } from "react-redux";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import SearchIcon from "@mui/icons-material/Search";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
@@ -12,6 +13,7 @@ import Cart from "../Cart/Cart";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
+  const products = useSelector((state) => state.cart.products);
 
   return (
     <div className={styles.navbar}>
@@ -54,7 +56,7 @@ function Navbar() {
             <FavoriteBorderOutlinedIcon />
             <div className={styles.icon} onClick={() => setOpen(!open)}>
               <ShoppingCartOutlinedIcon />
-              <span className={styles.amount}>0</span>
+              <span className={styles.amount}>{products.length}</span>
             </div>
           </li>
         </ul>

@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
+import { useDispatch } from "react-redux";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import BalanceIcon from "@mui/icons-material/Balance";
+import { addToCart } from "redux/cartSlice";
 import products from "../../data/products.json";
 import "./Product.scss";
 
@@ -10,8 +12,18 @@ function Product() {
   const [selectedImg, setSelectedImg] = useState("image");
   const [quantity, setQuantity] = useState(1);
   const catId = parseInt(useParams().id);
+  const dispatch = useDispatch();
 
   let productItem = products.find((item) => item.id === catId);
+
+  const cartProduct = {
+    id: productItem.id,
+    title: productItem.title,
+    desc: productItem.desc,
+    image: productItem.image,
+    price: productItem.price,
+    quantity,
+  };
 
   return (
     <div className="product">
@@ -51,7 +63,10 @@ function Product() {
             +
           </button>
         </div>
-        <button className="btn">
+        <button
+          className="btn"
+          onClick={() => dispatch(addToCart(cartProduct))}
+        >
           <AddShoppingCartIcon />
           ORDER
         </button>
