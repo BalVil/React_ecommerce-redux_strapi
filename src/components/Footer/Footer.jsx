@@ -10,7 +10,7 @@ import Warranty from "components/FooterModals/Warranty";
 
 import Payment from "../../images/payment.png";
 import Logo from "../../images/logo.png";
-import "./Footer.scss";
+import styles from "./Footer.module.scss";
 
 function Footer() {
   const [isOpenGDPR, setIsOpenGDPR] = useState(false);
@@ -24,9 +24,9 @@ function Footer() {
 
   return (
     <>
-      <footer className="footer" id="footer">
-        <ul className="footerTop">
-          <li className="footerItem">
+      <footer className={styles.footer} id="footer">
+        <ul className={styles.top}>
+          <li className={styles.item}>
             <h2>Customer Service</h2>
             <a href="#footer" onClick={() => setIsOpenGDPR(true)}>
               GDPR
@@ -39,7 +39,7 @@ function Footer() {
             </a>
             <a href="#footer">Products</a>
           </li>
-          <li className="footerItem">
+          <li className={styles.item}>
             <h2>Links</h2>
             <a href="#footer" onClick={() => setIsOpenAbout(true)}>
               About us
@@ -58,9 +58,9 @@ function Footer() {
               Warranty info
             </a>
           </li>
-          <li className="footerItem">
+          <li className={styles.about}>
             <h2>About</h2>
-            <span>
+            <span className={styles.aboutText}>
               We are passionate about music and believe that it can bring joy,
               inspiration, and connection to people from all walks of life. We
               have a wide selection of products inspired by music legends,
@@ -73,16 +73,16 @@ function Footer() {
             </span>
           </li>
         </ul>
-        <ul className="footerBottom">
-          <li className="footerLeft">
-            <span className="footerLogo">
+        <ul className={styles.bottom}>
+          <li className={styles.left}>
+            <span className={styles.logo}>
               <img src={Logo} alt="logo" />
             </span>
-            <span className="copyright">
+            <span className={styles.copyright}>
               Elvisies.com&copy; 2022-2023 All rights reserved
             </span>
           </li>
-          <li className="footerRight">
+          <li className={styles.right}>
             <img src={Payment} alt="payment options" />
           </li>
         </ul>

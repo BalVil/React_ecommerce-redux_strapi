@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "image": "/img/elvis/il_1140xN.4375748487_9enq.jpg",
+    "image2": "/img/elvis/il_1140xN.4375748487_9enq_2.jpg",
+    "title": "Elvis Presley Rock n Roll King Vinyl Record",
+    "desc": "I use vintage vinyl records for made of clocks.",
+    "type": "elvis",
+    "isNew": true,
+    "oldPrice": 34.49,
+    "price": 30.55
+  },
+  {
+    "id": 2,
+    "image": "/img/elvis/il_1140xN.4920033028_t0e0.jpg",
+    "image2": "/img/elvis/il_1140xN.4920033028_t0e0_2.jpg",
+    "title": "ELVIS For I Can't Help Falling In Love",
+    "desc": "Every music box was designed to capture the music movement's characteristics. FOR A FAN, MADE BY A FAN.",
+    "type": "elvis",
+    "isNew": true,
+    "oldPrice": 29.0,
+    "price": 27.99
+  },
+  {
+    "id": 3,
+    "image": "/img/elvis/il_1140xN.4423459201_70ap.jpg",
+    "image2": "/img/elvis/il_1140xN.4423459201_70ap_2.jpg",
+    "title": "Elvis Presley Portrait Sign Led",
+    "desc": "Elvis Presley portrait Led Sign. This is a very rare piece of art that can be used in any happy place. This would be a very special Christmas gift.",
+    "type": "elvis",
+    "isNew": true,
+    "oldPrice": 59.59,
+    "price": 57.99
+  },
+  {
+    "id": 4,
+    "image": "/img/elvis/david-bowie-500-piece-heroes-puzzle-6048-p.jpg",
+    "image2": "/img/elvis/david-bowie-500-piece-heroes-puzzle-6048-p.jpg",
+    "title": "Elvis E8 Quartz Square Watch With Real Black Leather Strap",
+    "desc": "Handmade item Stainless steel, Leather",
+    "type": "elvis",
+    "isNew": true,
+    "oldPrice": 26.59,
+    "price": 24.59
+  },
+  {
+    "id": 5,
+    "image": "/img/elvis/il_1140xN.4731239429_hyob.jpg",
+    "image2": "/img/elvis/il_1140xN.4731239429_hyob_2.jpg",
+    "title": "Elvis Presley - Keyring/Keychain - 50's 60's 70's",
+    "desc": "High Quality print, with the casing a GPPS Plastic which is general purpose polystyrene.",
+    "type": "elvis",
+    "isNew": true,
+    "oldPrice": 6.59,
+    "price": 4.99
+  },
+  {
+    "id": 6,
+    "image": "/img/elvis/il_1140xN.4884731022_pwhy.jpg",
+    "image2": "/img/elvis/il_1140xN.4884731022_pwhy_2.jpg",
+    "title": "Elvis Presley King Of Rock and Roll Sketch Art Gift Flip",
+    "desc": "Our stylish wallet flip cases perfectly fit your smart phone. They are made of canvas and PU leather. The design is printed directly on the leather (the front side of the case). The back side of the flip case is black.",
+    "type": "elvis",
+    "isNew": true,
+    "oldPrice": 9.89,
+    "price": 8.69
+  }
+]

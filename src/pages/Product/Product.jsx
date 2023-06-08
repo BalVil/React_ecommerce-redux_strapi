@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import BalanceIcon from "@mui/icons-material/Balance";
-import bestSellingItems from "../../data/bestSellingProducts.json";
+import bestSellingItems from "../../data/products.json";
 import "./Product.scss";
 
 function Product() {

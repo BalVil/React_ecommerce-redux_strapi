@@ -1,6 +1,12 @@
 .section {
   padding: 100px 0;
 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #3a2632;
+  background-image: url(../../images/xmas2020.jpg);
+
   @media screen and (min-width: 1200px) {
     padding: 140px 0;
   }

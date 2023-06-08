@@ -7,9 +7,10 @@ function Home() {
   return (
     <div className="home">
       <Slider />
-      <BestSellingProducts type="bestSelling" />
+      <BestSellingProducts type="best selling" />
       <Categories />
-      <BestSellingProducts type="trending" />
+      <BestSellingProducts type="new" />
+      <BestSellingProducts type="Elvis-inspired gifts" />
       <BeInTouch />
     </div>
   );

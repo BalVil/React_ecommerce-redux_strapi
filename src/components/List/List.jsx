@@ -1,5 +1,5 @@
 // import gifts from "../../data/gifts.json";
-import bestSellingItems from "../../data/bestSellingProducts.json";
+import bestSellingItems from "../../data/products.json";
 import Card from "../Card/Card";
 import "./List.scss";
 
