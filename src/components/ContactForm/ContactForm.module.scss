@@ -1,4 +1,4 @@
-@import 'styles/vars';
+@import "styles/vars";
 
 .formWrapper {
   position: relative;
@@ -30,8 +30,8 @@
   letter-spacing: 0.03em;
 
   color: var(--color-primary);
-  text-shadow: 3px 0px 4px var(--color-dark), -3px 0px 4px var(--color-dark),
-    0px 4px 4px var(--color-dark);
+  text-shadow: 3px 0px 4px var(--color-light), -3px 0px 4px var(--color-white),
+    0px 4px 4px var(--color-light);
 
   @media screen and (min-width: 1200px) {
     font-size: 40px;
@@ -62,10 +62,11 @@
   gap: 1.2rem;
   padding: 24px;
 
-  background: #474a59;
+  background: rgba(192, 192, 192, 0.95);
   box-shadow: 0px 0px 40px 16px rgba(0, 0, 0, 0.22);
   color: #f1f1f2;
   position: relative;
+
   @media screen and (min-width: 1200px) {
     width: 50%;
   }

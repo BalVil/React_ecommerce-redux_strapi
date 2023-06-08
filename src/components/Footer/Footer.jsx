@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import GDPR from "components/FooterModals/GDPR";
 import Terms from "components/FooterModals/Terms";
 import Privacy from "components/FooterModals/Privacy";
@@ -27,7 +28,7 @@ function Footer() {
       <footer className={styles.footer} id="footer">
         <ul className={styles.top}>
           <li className={styles.item}>
-            <h2>Customer Service</h2>
+            <h2 className={styles.title}>Customer Service</h2>
             <a href="#footer" onClick={() => setIsOpenGDPR(true)}>
               GDPR
             </a>
@@ -40,7 +41,7 @@ function Footer() {
             <a href="#footer">Products</a>
           </li>
           <li className={styles.item}>
-            <h2>Links</h2>
+            <h2 className={styles.title}>Links</h2>
             <a href="#footer" onClick={() => setIsOpenAbout(true)}>
               About us
             </a>
@@ -59,7 +60,7 @@ function Footer() {
             </a>
           </li>
           <li className={styles.about}>
-            <h2>About</h2>
+            <h2 className={styles.title}>About</h2>
             <span className={styles.aboutText}>
               We are passionate about music and believe that it can bring joy,
               inspiration, and connection to people from all walks of life. We
@@ -75,9 +76,9 @@ function Footer() {
         </ul>
         <ul className={styles.bottom}>
           <li className={styles.left}>
-            <span className={styles.logo}>
+            <NavLink className={styles.logo} to="/">
               <img src={Logo} alt="logo" />
-            </span>
+            </NavLink>
             <span className={styles.copyright}>
               Elvisies.com&copy; 2022-2023 All rights reserved
             </span>

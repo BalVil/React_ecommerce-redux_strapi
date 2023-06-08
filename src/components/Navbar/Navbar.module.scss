@@ -4,47 +4,52 @@
   height: 80px;
 }
 
-.wrapper {
+.wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px 32px;
 }
 
-.navbarLeft,
-.navbarRight {
+.left,
+.right {
   display: flex;
   align-items: center;
   gap: 24px;
   font-size: 18px;
 }
 
-.navbarCenter {
+.center {
   font-size: 32px;
   letter-spacing: 0.06em;
 }
 
-.navbarItem {
+.item {
   display: flex;
   align-items: center;
 }
 
-.navbarLink {
+.link {
   color: inherit;
 }
 
-.navbarIcons {
+.activeLink {
+  composes: link;
+  color: var(--color-accent-variant);
+}
+
+.icons {
   display: flex;
   gap: 12px;
   color: var(--color-gray);
   cursor: pointer;
 }
 
-.cartIcon {
+.icon {
   position: relative;
 }
 
-.cartOrders {
+.amount {
   position: absolute;
   right: -9px;
   top: -9px;

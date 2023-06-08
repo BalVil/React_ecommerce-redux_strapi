@@ -1,4 +1,4 @@
-.bestSelling {
+.products {
   padding: 24px;
 
   @media screen and (min-width: 1200px) {
@@ -6,24 +6,19 @@
   }
 }
 
-.bestSellingTop {
+.top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 50px;
 }
 
-.bestSellingTitle {
+.title {
   flex: 2;
   text-transform: capitalize;
 }
 
-.bestSellingText {
-  flex: 3;
-  color: var(--color-gray);
-}
-
-.bestSellingBottom {
+.bottom {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

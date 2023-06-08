@@ -8,14 +8,15 @@ function Categories() {
         <div className="row">
           <img src="/img/categories/gifts.jpg" alt="gifts" />
 
-          <NavLink to="/products/1" className="categoriesLink">
+          <NavLink to="/products/gifts" className="categoriesLink">
             Gifts
           </NavLink>
         </div>
+        Products
         <div className="row">
           <img src="/img/categories/jewellery.jpg" alt="jewellery" />
 
-          <NavLink to="/products/1" className="categoriesLink">
+          <NavLink to="/products/jewellery" className="categoriesLink">
             Jewellery
           </NavLink>
         </div>
@@ -24,7 +25,7 @@ function Categories() {
         <div className="row">
           <img src="/img/categories/accessories.jpg" alt="accessories" />
 
-          <NavLink to="/products/1" className="categoriesLink">
+          <NavLink to="/products/accessories" className="categoriesLink">
             Accessories
           </NavLink>
         </div>
@@ -35,7 +36,7 @@ function Categories() {
             <div className="row">
               <img src="/img/categories/clothing.jpg" alt="clothing" />
 
-              <Link to="/products/1" className="categoriesLink">
+              <Link to="/products/clothing" className="categoriesLink">
                 Clothing
               </Link>
             </div>
@@ -44,7 +45,7 @@ function Categories() {
             <div className="row">
               <img src="/img/categories/3d_cards.jpg" alt="3d cards" />
 
-              <Link to="/products/1" className="categoriesLink">
+              <Link to="/products/3d_cards" className="categoriesLink">
                 3D Cards
               </Link>
             </div>
@@ -53,7 +54,7 @@ function Categories() {
         <div className="row">
           <img src="/img/categories/memorabilia2.jpg" alt="memorabilia" />
 
-          <Link to="/products/1" className="categoriesLink">
+          <Link to="/products/memorabilia" className="categoriesLink">
             Memorabilia
           </Link>
         </div>

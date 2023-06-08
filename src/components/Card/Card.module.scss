@@ -31,7 +31,7 @@
   z-index: 1;
 }
 
-.cardOption {
+.option {
   z-index: 3;
   position: absolute;
   top: 4px;
@@ -45,7 +45,7 @@
   font-size: 12px;
 }
 
-.cardTitle {
+.title {
   font-size: 16px;
   font-weight: 400;
 }
@@ -58,9 +58,12 @@
 .price {
   font-size: 18px;
   font-weight: 500;
+  color: var(--color-accent);
+}
 
-  &:first-child {
-    color: var(--color-gray);
-    text-decoration: line-through;
-  }
+.oldPrice {
+  composes: price;
+
+  color: var(--color-gray);
+  text-decoration: line-through;
 }

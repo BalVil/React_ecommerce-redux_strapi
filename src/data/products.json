@@ -9,7 +9,10 @@
     "type": "best selling",
     "isNew": true,
     "oldPrice": 18.49,
-    "price": 17.99
+    "price": 17.99,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 2,
@@ -21,7 +24,10 @@
     "type": "best selling",
     "isNew": true,
     "oldPrice": 23.0,
-    "price": 21.99
+    "price": 21.99,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 3,
@@ -33,7 +39,10 @@
     "type": "best selling",
     "isNew": false,
     "oldPrice": 18.59,
-    "price": 17.59
+    "price": 17.59,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 4,
@@ -45,7 +54,10 @@
     "type": "best selling",
     "isNew": false,
     "oldPrice": 18.59,
-    "price": 17.59
+    "price": 17.59,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 5,
@@ -57,7 +69,10 @@
     "type": "best selling",
     "isNew": true,
     "oldPrice": 6.59,
-    "price": 5.99
+    "price": 5.99,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 6,
@@ -69,7 +84,10 @@
     "type": "best selling",
     "isNew": true,
     "oldPrice": 8.89,
-    "price": 7.69
+    "price": 7.69,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 7,
@@ -81,7 +99,10 @@
     "type": "Elvis-inspired gifts",
     "isNew": true,
     "oldPrice": 34.49,
-    "price": 30.55
+    "price": 30.55,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 8,
@@ -93,7 +114,10 @@
     "type": "Elvis-inspired gifts",
     "isNew": true,
     "oldPrice": 29.0,
-    "price": 27.99
+    "price": 27.99,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 9,
@@ -105,19 +129,25 @@
     "type": "Elvis-inspired gifts",
     "isNew": true,
     "oldPrice": 59.59,
-    "price": 57.99
+    "price": 57.99,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 10,
-    "image": "/img/elvis/david-bowie-500-piece-heroes-puzzle-6048-p.jpg",
-    "image2": "/img/elvis/david-bowie-500-piece-heroes-puzzle-6048-p.jpg",
+    "image": "/img/elvis/il_1140xN.3530620195_sru5.jpg",
+    "image2": "/img/elvis/il_1140xN.3530620195_sru5_2.jpg",
     "title": "Elvis E8 Quartz Square Watch With Real Black Leather Strap",
     "desc": "Handmade item Stainless steel, Leather",
     "category": "gifts",
     "type": "Elvis-inspired gifts",
     "isNew": true,
     "oldPrice": 26.59,
-    "price": 24.59
+    "price": 24.59,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 11,
@@ -129,7 +159,10 @@
     "type": "Elvis-inspired gifts",
     "isNew": true,
     "oldPrice": 6.59,
-    "price": 4.99
+    "price": 4.99,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 12,
@@ -141,7 +174,10 @@
     "type": "Elvis-inspired gifts",
     "isNew": true,
     "oldPrice": 9.89,
-    "price": 8.69
+    "price": 8.69,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 13,
@@ -149,11 +185,14 @@
     "image2": "/img/new/abba-dancing-queen-card-6227-p.jpg",
     "title": "ABBA Dancing Queen Card",
     "desc": "ABBA 'Dancing Queen' Card",
-    "category": "3d cards",
+    "category": "3d_cards",
     "type": "new",
     "isNew": true,
     "oldPrice": 4.49,
-    "price": 3.55
+    "price": 3.55,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 14,
@@ -165,19 +204,25 @@
     "type": "new",
     "isNew": true,
     "oldPrice": 9.0,
-    "price": 7.99
+    "price": 7.99,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 15,
-    "image": "/img/new/mapac-duo-music-bag-in-a-variety-of-colours-choose-a-colour-black-5474-p",
-    "image2": "/img/new/mapac-duo-music-bag-in-a-variety-of-colours-choose-a-colour-black-5474-p",
+    "image": "/img/new/mapac-duo-music-bag-in-a-variety-of-colours-choose-a-colour-black-5474-p.jpg",
+    "image2": "/img/new/mapac-duo-music-bag-in-a-variety-of-colours-choose-a-colour-black-5474-p.jpg",
     "title": "Mapac Duo Music Bag in a Variety of Colours",
     "desc": "This stylish large music bag in a variety of colours with musicians playing, adjustable strap is great music gift for any young music student or musician",
     "category": "clothing",
     "type": "new",
     "isNew": true,
     "oldPrice": 8.59,
-    "price": 7.59
+    "price": 7.59,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 16,
@@ -189,7 +234,10 @@
     "type": "new",
     "isNew": true,
     "oldPrice": 16.59,
-    "price": 14.59
+    "price": 14.59,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 17,
@@ -201,7 +249,10 @@
     "type": "new",
     "isNew": true,
     "oldPrice": 26.59,
-    "price": 24.99
+    "price": 24.99,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 18,
@@ -213,7 +264,10 @@
     "type": "new",
     "isNew": true,
     "oldPrice": 4.89,
-    "price": 4.69
+    "price": 4.69,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 19,
@@ -225,7 +279,10 @@
     "type": "",
     "isNew": false,
     "oldPrice": 14.89,
-    "price": 14.69
+    "price": 14.69,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 20,
@@ -236,7 +293,10 @@
     "category": "clothing",
     "type": "",
     "isNew": false,
-    "price": 9.69
+    "price": 9.69,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 21,
@@ -247,7 +307,10 @@
     "category": "clothing",
     "type": "",
     "isNew": true,
-    "price": 16.69
+    "price": 16.69,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 22,
@@ -255,11 +318,14 @@
     "image2": "/img/3d/grand-piano-3d-card-by-mgc-1642-p.jpg",
     "title": "Grand Piano 3D Card by MGC",
     "desc": "Music 3D Grand Piano greetings card opens up showing off the inside workings of the piano making a lovely musical card for any musician or music lover.",
-    "category": "3d cards",
+    "category": "3d_cards",
     "type": "",
     "isNew": true,
     "oldPrice": 5.89,
-    "price": 5.09
+    "price": 5.09,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 23,
@@ -267,11 +333,14 @@
     "image2": "/img/3d/drum-kit-3d-card-by-mgc-1643-p.jpg",
     "title": "Drum Kit 3D Card by MGC",
     "desc": "Music 3D Drum Kit greetings card stands up & opens out as a cut out drum kit making a lovely musical card for any drummer, musician or music lover.",
-    "category": "3d cards",
+    "category": "3d_cards",
     "type": "",
     "isNew": true,
     "oldPrice": 5.59,
-    "price": 4.99
+    "price": 4.99,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 24,
@@ -279,11 +348,14 @@
     "image2": "/img/3d/theatre-organ-3d-card-by-mgc-3343-p.jpg",
     "title": "Theatre Organ 3D Card by MGC",
     "desc": "Theatre Organ 3D greetings card with music on display and a space to write your own message, a lovely music card for any musician or music lover.",
-    "category": "3d cards",
+    "category": "3d_cards",
     "type": "",
     "isNew": false,
     "oldPrice": 5.09,
-    "price": 4.49
+    "price": 4.49,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 25,
@@ -291,11 +363,14 @@
     "image2": "/img/3d/clarinet-3d-card-by-mgc-1741-p.jpg",
     "title": "Clarinet 3D Card by MGC",
     "desc": "Clarinet 3D Card by MGC",
-    "category": "3d cards",
+    "category": "3d_cards",
     "type": "",
     "isNew": false,
     "oldPrice": 6.19,
-    "price": 5.49
+    "price": 5.49,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 26,
@@ -306,7 +381,10 @@
     "category": "accessories",
     "type": "",
     "isNew": true,
-    "price": 6.09
+    "price": 6.09,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 27,
@@ -318,7 +396,10 @@
     "type": "",
     "isNew": true,
     "oldPrice": 2.29,
-    "price": 2.09
+    "price": 2.09,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 28,
@@ -330,7 +411,10 @@
     "type": "",
     "isNew": false,
     "oldPrice": 12.69,
-    "price": 10.19
+    "price": 10.19,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 29,
@@ -341,7 +425,10 @@
     "category": "accessories",
     "type": "",
     "isNew": false,
-    "price": 11.0
+    "price": 11.0,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 30,
@@ -353,7 +440,10 @@
     "type": "",
     "isNew": false,
     "oldPrice": 10.5,
-    "price": 9.49
+    "price": 9.49,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 31,
@@ -365,7 +455,10 @@
     "type": "",
     "isNew": false,
     "oldPrice": 30.59,
-    "price": 29.19
+    "price": 29.19,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   },
   {
     "id": 32,
@@ -377,6 +470,9 @@
     "type": "",
     "isNew": true,
     "oldPrice": 35.09,
-    "price": 32.79
+    "price": 32.79,
+    "brand": "",
+    "productCode": "",
+    "size": ""
   }
 ]

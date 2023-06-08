@@ -5,29 +5,13 @@ import productImg from "../../images/product.jpg";
 import "./Products.scss";
 
 function Products() {
-  const catId = parseInt(useParams().id);
-  const [maxPrice, setMaxPrice] = useState(1000);
+  const cat = useParams().category;
+  const [maxPrice, setMaxPrice] = useState(100);
   const [sort, setSort] = useState(null);
-  const [selectedSubCats, setSelectedSubCats] = useState([]);
 
   return (
     <div className="products">
       <ul className="productsLeft">
-        <li className="filterItem">
-          <h2 className="productsTitle">Product Categories</h2>
-          <div className="inputItem">
-            <input type="checkbox" id="1" value={1} />
-            <label htmlFor="1">Gift Sets</label>
-          </div>
-          <div className="inputItem">
-            <input type="checkbox" id="2" value={2} />
-            <label htmlFor="2">General Gifts</label>
-          </div>
-          <div className="inputItem">
-            <input type="checkbox" id="3" value={3} />
-            <label htmlFor="3">Household Gifts</label>
-          </div>
-        </li>
         <li className="filterItem">
           <h2>Filter by price</h2>
           <div className="inputItem">
@@ -35,7 +19,7 @@ function Products() {
             <input
               type="range"
               min={0}
-              max={1000}
+              max={100}
               onChange={(e) => setMaxPrice(e.target.value)}
             />
             <span>{maxPrice}</span>
@@ -67,7 +51,7 @@ function Products() {
       </ul>
       <div className="productsRight">
         <img src={productImg} alt="products" className="catImg" />
-        <List catId={catId} maxPrice={maxPrice} sort={sort} />
+        <List cat={cat} maxPrice={maxPrice} sort={sort} />
       </div>
     </div>
   );
