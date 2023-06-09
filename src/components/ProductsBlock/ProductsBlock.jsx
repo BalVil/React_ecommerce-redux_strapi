@@ -1,22 +1,20 @@
-import styles from "./Products.module.scss";
+import styles from "./ProductsBlock.module.scss";
 import products from "../../data/products.json";
 import Card from "../Card/Card";
 
-function Products({ type }) {
+function ProductsBlock({ type }) {
   return (
     <div className={styles.products}>
       <div className={styles.top}>
         <h2 className={styles.title}>{type}</h2>
       </div>
       <div className={styles.bottom}>
-        {products?.map((item) => {
-          if (item.type === type) {
-            return <Card item={item} key={item.id} />;
-          }
-        })}
+        {products?.map((item) =>
+          item.type === type ? <Card item={item} key={item.id} /> : null
+        )}
       </div>
     </div>
   );
 }
 
-export default Products;
+export default ProductsBlock;

@@ -8,7 +8,6 @@ import Contact from "components/FooterModals/ContactUs";
 import Return from "components/FooterModals/Return";
 import Delivery from "components/FooterModals/Delivery";
 import Warranty from "components/FooterModals/Warranty";
-
 import Payment from "../../images/payment.png";
 import Logo from "../../images/logo.png";
 import styles from "./Footer.module.scss";
@@ -84,7 +83,7 @@ function Footer() {
             </span>
           </li>
           <li className={styles.right}>
-            <img src={Payment} alt="payment options" />
+            <img src={Payment} alt="payment options" loading="lazy" />
           </li>
         </ul>
       </footer>

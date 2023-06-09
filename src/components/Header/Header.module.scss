@@ -1,25 +1,42 @@
 @import "../../styles/vars.scss";
 
-.navbar {
+.header {
   height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 32px;
+}
+
+.left,
+.right,
+.center {
+  flex: 1;
 }
 
 .left,
 .right {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 24px;
   font-size: 18px;
 }
 
+.language {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
 .center {
+  display: flex;
+  justify-content: center;
   font-size: 32px;
   letter-spacing: 0.06em;
 }
