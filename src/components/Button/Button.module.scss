@@ -1,4 +1,4 @@
-@import 'styles/vars';
+@import "styles/vars";
 
 .btn {
   position: relative;
@@ -17,17 +17,17 @@
 
   border: 1px solid transparent;
   border-radius: 4px;
-  color: var(--color-white);
+  color: var(--color-dark);
   box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
   cursor: pointer;
 
   background: linear-gradient(
       45deg,
-      rgba(255, 175, 189, 0.8),
-      rgba(100, 216, 243, 0.8),
-      rgba(81, 138, 104, 0.8),
-      rgba(206, 143, 255, 0.8),
-      rgba(52, 219, 216, 0.8)
+      rgba(247, 165, 159, 0.8),
+      rgba(137, 197, 247, 0.8),
+      rgba(120, 143, 129, 0.8),
+      rgba(233, 215, 247, 0.8),
+      rgba(190, 245, 244, 0.8)
     )
     0 0 / 1000% no-repeat;
   animation: gradientAnimation 40s ease infinite;

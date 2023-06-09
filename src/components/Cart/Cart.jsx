@@ -1,5 +1,5 @@
 import DeleteOutlinedIcon from "@mui/icons-material/DeleteOutlined";
-import "./Cart.scss";
+import styles from "./Cart.module.scss";
 import { useDispatch, useSelector } from "react-redux";
 import { removeItem, resetCart } from "redux/cartSlice";
 
@@ -13,30 +13,30 @@ function Cart() {
     .toFixed(2);
 
   return (
-    <div className="cart">
-      <h1 className="cartTitle">Products in your cart</h1>
+    <div className={styles.cart}>
+      <h1 className={styles.title}>Products in your cart</h1>
       {products?.map((item) => (
-        <div className="cartItem" key={item.id}>
-          <img src={item.image} alt="" />
-          <div className="details">
-            <h2 className="cartItemTitle">{item.title}</h2>
-            <p className="cartItemDesc">{item.desc?.substring(0, 100)}</p>
-            <div className="cartItemPrice">
+        <div className={styles.item} key={item.id}>
+          <img src={item.image} alt={item.image} />
+          <div className={styles.details}>
+            <h2 className={styles.itemTitle}>{item.title}</h2>
+            <p className={styles.itemDesc}>{item.desc?.substring(0, 100)}</p>
+            <div className={styles.itemPrice}>
               {item.quantity} x {item.price}
             </div>
           </div>
           <DeleteOutlinedIcon
-            className="delete"
+            className={styles.delete}
             onClick={() => dispatch(removeItem(item.id))}
           />
         </div>
       ))}
-      <div className="total">
+      <div className={styles.total}>
         <span>SUBTOTAL</span>
         <span>{total}€</span>
       </div>
-      <button className="btn">PROCEED TO CHECKOUT</button>
-      <span className="reset" onClick={() => dispatch(resetCart())}>
+      <button className={styles.btn}>PROCEED TO CHECKOUT</button>
+      <span className={styles.reset} onClick={() => dispatch(resetCart())}>
         Reset Cart
       </span>
     </div>

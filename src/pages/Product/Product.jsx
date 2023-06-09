@@ -6,7 +6,7 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import BalanceIcon from "@mui/icons-material/Balance";
 import { addToCart } from "redux/cartSlice";
 import products from "../../data/products.json";
-import "./Product.scss";
+import styles from "./Product.module.scss";
 
 function Product() {
   const [selectedImg, setSelectedImg] = useState("image");
@@ -26,9 +26,9 @@ function Product() {
   };
 
   return (
-    <div className="product">
-      <div className="productLeft">
-        <div className="productImages">
+    <div className={styles.product}>
+      <div className={styles.product}>
+        <div className={styles.images}>
           <img
             src={productItem.image}
             alt={productItem.title}
@@ -40,54 +40,56 @@ function Product() {
             onClick={() => setSelectedImg("image2")}
           />
         </div>
-        <div className="mainImg">
+        <div className={styles.mainImg}>
           <img src={productItem[selectedImg]} alt={productItem.title} />
         </div>
       </div>
-      <div className="productRight">
+      <div className={styles.right}>
         <h2>{productItem.title}</h2>
-        <span className="price">{productItem.price}€</span>
-        <p className="productText">{productItem.desc}</p>
-        <div className="quantity">
+        <span className={styles.price}>{productItem.price}€</span>
+        <p className={styles.right}>{productItem.desc}</p>
+        <div className={styles.quantity}>
           <button
-            className="productBtn"
+            className={styles.productBtn}
             onClick={() => setQuantity((prev) => (prev === 1 ? 1 : prev - 1))}
           >
             -
           </button>
-          <span className="quantityValue">{quantity}</span>
+          <span className={styles.quantityValue}>{quantity}</span>
           <button
-            className="productBtn"
+            className={styles.productBtn}
             onClick={() => setQuantity((prev) => prev + 1)}
           >
             +
           </button>
         </div>
+
         <button
-          className="btn"
+          type="button"
+          className={styles.btn}
           onClick={() => dispatch(addToCart(cartProduct))}
         >
           <AddShoppingCartIcon />
           ORDER
         </button>
-        <ul className="linkList">
-          <li className="linkItem">
+        <ul className={styles.linkList}>
+          <li className={styles.link}>
             <FavoriteBorderIcon /> ADD TO WISHLIST
           </li>
-          <li className="linkItem">
+          <li className={styles.link}>
             <BalanceIcon /> ADD TO COMPARE
           </li>
         </ul>
-        <div className="addition">
+        <div className={styles.addition}>
           <span>Brand: {productItem.brand}</span>
           <span>Product Code: {productItem.productCode}</span>
           <span>Size: {productItem.size}</span>
         </div>
         <hr />
-        <div className="info">
-          <span className="infoItem">DESCRIPTION</span>
-          <span className="infoItem">SPECIFICATIONS</span>
-          <span className="infoItem">REVIEWS</span>
+        <div className={styles.info}>
+          <span className={styles.infoItem}>DESCRIPTION</span>
+          <span className={styles.infoItem}>SPECIFICATIONS</span>
+          <span className={styles.infoItem}>REVIEWS</span>
         </div>
       </div>
     </div>

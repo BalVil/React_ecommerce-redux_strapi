@@ -66,18 +66,3 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
-
-.btn {
-  width: 250px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 20px;
-
-  border: none;
-  background-color: var(--color-accent);
-  color: var(--color-white);
-  cursor: pointer;
-}
