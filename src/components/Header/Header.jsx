@@ -25,7 +25,12 @@ function Header() {
             </div>
           </div>
           <div className={styles.center}>
-            <NavLink className={styles.link} to="/">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? styles.logo : styles.link
+              }
+              to="/"
+            >
               <img src={Logo} alt="logo" />
             </NavLink>
           </div>

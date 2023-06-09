@@ -9,8 +9,8 @@
 .top {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+  justify-content: space-around;
+  row-gap: 16px;
 
   @media screen and (min-width: 1200px) {
     gap: 50px;
@@ -35,6 +35,7 @@
   font-size: 18px;
   font-weight: 500;
   color: var(--color-dark);
+  text-align: center;
 }
 
 .item span {
@@ -42,7 +43,7 @@
 }
 
 .about {
-  display: none;
+  // display: none;
 
   @media screen and (min-width: 1200px) {
     display: flex;
@@ -58,6 +59,7 @@
 
 .aboutText {
   font-size: 12px;
+  letter-spacing: 0.02em;
 }
 
 .bottom {

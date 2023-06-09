@@ -27,7 +27,10 @@ function Footer() {
       <footer className={styles.footer} id="footer">
         <ul className={styles.top}>
           <li className={styles.item}>
-            <h2 className={styles.title}>Customer Service</h2>
+            <h2 className={styles.title}>
+              Customer <br />
+              Service
+            </h2>
             <a href="#footer" onClick={() => setIsOpenGDPR(true)}>
               GDPR
             </a>
@@ -64,12 +67,12 @@ function Footer() {
               We are passionate about music and believe that it can bring joy,
               inspiration, and connection to people from all walks of life. We
               have a wide selection of products inspired by music legends,
-              including Elvis Presley, in our store. Elvis Presley, we believe,
-              was not only a talented musician, but also an icon who embodies
-              the power of music to unite people and break down barriers. That
-              is why we have a selection of Elvis-inspired gifts in our catalog,
-              such as t-shirts, posters, and collectibles that honor his music
-              and legacy.
+              including Elvis Presley, in our store. <br /> Elvis Presley, we
+              believe, was not only a talented musician, but also an icon who
+              embodies the power of music to unite people and break down
+              barriers. That is why we have a selection of Elvis-inspired gifts
+              in our catalog, such as t-shirts, posters, and collectibles that
+              honor his music and legacy.
             </span>
           </li>
         </ul>

@@ -4,7 +4,7 @@ import Card from "../Card/Card";
 
 function ProductsBlock({ type }) {
   return (
-    <div className={styles.products}>
+    <div className={styles[type] || styles.products}>
       <div className={styles.top}>
         <h2 className={styles.title}>{type}</h2>
       </div>

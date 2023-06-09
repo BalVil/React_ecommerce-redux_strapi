@@ -15,103 +15,109 @@ function Privacy({ showPrivacy }) {
           />
           <ModalTextWrap title={"Privacy Policy"}>
             <p>
-              Welcome to our platform. This Privacy Policy ("Policy") outlines
-              how we collect, use, and disclose information about you when you
-              use our services. It is important to carefully read and understand
-              this Policy before using our services. By accessing or using our
-              services, you acknowledge that you have read, understood, and
-              agreed to be bound by this Policy. If you disagree with any part
-              of this Policy, please refrain from using our services.
-            </p>
-            <p>Information We Collect</p>
-            <p>
-              Personal Information: When you use our services, we may collect
-              personal information from you, such as your name, email address,
-              and any other information you voluntarily provide during the
-              registration process. We only collect the necessary information to
-              provide our services and ensure a personalized experience.
+              This privacy statement describes how Elvisies.com uses and
+              protects any information you provide while using this website.
             </p>
             <p>
-              Usage Information: We automatically collect certain information
-              about your usage patterns when you interact with our services.
-              This may include your IP address, browser type, operating system,
-              device information, log data, and other usage details. This
-              information helps us analyze user behavior and improve our
-              services.
+              Elvisies.com is dedicated to protecting your privacy. If we ask
+              you for information that can be used to identify you while using
+              this website, you can be confident that it will be used only in
+              accordance with this privacy statement.
             </p>
             <p>
-              Cookies and Similar Technologies: We use cookies and similar
-              technologies to enhance your experience on our platform. These
-              technologies collect information about your interactions with our
-              services, such as pages visited, time spent on each page, and
-              actions taken. Cookies help us analyze trends, customize content,
-              and improve overall functionality.
+              Elvisies.com reserves the right, at any time, to change this
+              policy by updating this page. You should check back on a regular
+              basis to ensure that you are happy with any changes.
             </p>
-            <p>How We Use Your Information</p>
+            <p>What we gather</p>
             <p>
-              Service Provision: We use the collected information to provide and
-              improve our services, personalize your experience, respond to
-              inquiries, and fulfill your requests. Your information enables us
-              to optimize our platform and tailor it to meet your needs.
+              Name and payment information <br />
+              Contact details, including an email address
+              <br /> Postcodes, preferences, and interests are examples of
+              demographic information. <br />
+              Other data pertinent to customer surveys and/or offers
             </p>
+            <p>What we do with the data we collect</p>
             <p>
-              Communication: We may use your information to communicate with
-              you, including sending important updates, notifications, and
-              promotional materials related to our services. You have the option
-              to opt out of receiving promotional communications.
+              We need this information to better understand your needs and
+              provide you with better service, specifically for the following
+              reasons:
             </p>
             <p>
-              Legal Compliance: We may use and disclose your information as
-              required by applicable laws, regulations, legal processes, or
-              governmental requests. Additionally, we may use and disclose your
-              information to enforce our terms of service, protect our rights,
-              privacy, safety, or property, and respond to emergencies.
+              To complete your order and receive payment Keeping internal
+              records We may use the data to enhance our products and services.
+              We may send promotional emails about new products, special offers,
+              or other information that we believe you may be interested in
+              using the email address you have provided. We may also use your
+              information to contact you for market research purposes from time
+              to time. We may contact you by phone or email. We may use the
+              information to tailor the website to your preferences.
             </p>
-            <p>Sharing of Your Information</p>
+            <p>Security</p>
             <p>
-              Service Providers: We may share your information with trusted
-              third-party service providers who assist us in operating our
-              services, conducting business activities on our behalf, and
-              providing you with a seamless experience. These service providers
-              are contractually obligated to maintain the confidentiality and
-              security of your information.
-            </p>
-            <p>
-              Legal Requirements: We may disclose your information to comply
-              with applicable laws, regulations, legal processes, or
-              governmental requests. This includes responding to subpoenas,
-              court orders, or other legal demands for information.
-            </p>
-            <p>Data Retention and Security</p>
-            <p>
-              Data Retention: We retain your personal information for as long as
-              necessary to fulfill the purposes outlined in this Policy, unless
-              a longer retention period is required or permitted by law. We will
-              securely dispose of your information when it is no longer needed.
+              We are committed to keeping your information safe. We have put in
+              place appropriate physical, electronic, and managerial procedures
+              to safeguard and secure the information we collect online in order
+              to prevent unauthorized access or disclosure.
             </p>
             <p>
-              Data Security: We implement reasonable security measures to
-              protect your information from unauthorized access, disclosure,
-              alteration, or destruction. We employ industry-standard practices
-              to safeguard your data. However, please be aware that no method of
-              transmission over the internet or electronic storage is completely
-              secure, and we cannot guarantee absolute security.
+              A cookie is a small file that requests permission to be placed on
+              the hard drive of your computer. When you agree, the file is
+              added, and the cookie analyzes web traffic or notifies you when
+              you visit a specific site. Web applications can respond to you as
+              an individual thanks to cookies. By gathering and remembering
+              information about your preferences, the web application can tailor
+              its operations to your needs, likes, and dislikes.
             </p>
-            <p>Updates to This Policy</p>
             <p>
-              We reserve the right to update or modify this Policy at any time.
-              We will notify you of any material changes to this Policy by
-              posting the updated version on our website or through other
-              reasonable means. Your continued use of our services after the
-              effective date of any changes to this Policy constitutes your
-              acceptance of such changes.
+              To determine which pages are being visited, we use traffic log
+              cookies.
             </p>
-            <p>Contact Us</p>
             <p>
-              If you have any questions, concerns, or requests regarding this
-              Policy or our privacy practices, please contact us at
-              info@bookofthefallengaming.com. We take your privacy seriously and
-              will address any inquiries promptly and professionally.
+              This allows us to analyze data about web page traffic and improve
+              our website to better meet the needs of our customers.
+            </p>
+            <p>
+              We only use this information for statistical analysis and then
+              delete it from the system.
+            </p>
+            <p>
+              Overall, cookies assist us in providing a better website by
+              allowing us to track which pages you find useful and which you do
+              not. A cookie gives us no access to your computer or any
+              information about you other than the information you choose to
+              share with us.
+            </p>
+            <p>
+              You have the option to accept or decline cookies. Most web
+              browsers accept cookies by default, but you can usually change
+              your browser settings to decline cookies if you prefer. This may
+              prevent you from fully utilizing the website.
+            </p>
+            <p>Controlling your personal data</p>
+            <p>
+              You can limit the collection and use of your personal information
+              in the following ways:
+            </p>
+            <p>
+              When filling out a form on the website, look for the box that
+              allows you to indicate that you do not want the information to be
+              used for direct marketing purposes. If you previously consented to
+              us using your personal information for direct marketing purposes,
+              you may withdraw your consent at any time by writing to or
+              emailing us.
+            </p>
+            <p>
+              We will not sell, distribute, or lease your personal information
+              to third parties unless you give us permission or it is required
+              by law. If you tell us that you want us to, we may use your
+              personal information to send you promotional information about
+              third parties that we think you might be interested in.
+            </p>
+            <p>
+              If you believe any information we have on file for you is
+              incorrect or incomplete, please contact us as soon as possible.
+              Any incorrect information will be corrected as soon as possible.
             </p>
           </ModalTextWrap>
         </Modal>

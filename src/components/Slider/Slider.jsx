@@ -12,7 +12,7 @@ import Img3 from "../../images/slider/img3.jpg";
 import mobileImg3_sm from "../../images/slider/mobileImg3_sm.jpg";
 import mobileImg3_lg from "../../images/slider/mobileImg3_lg.jpg";
 
-import "./Slider.scss";
+import styles from "./Slider.module.scss";
 
 function Slider() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -26,9 +26,9 @@ function Slider() {
   };
 
   return (
-    <div className="slider">
+    <div className={styles.slider}>
       <ul
-        className="sliderItemList"
+        className={styles.itemList}
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
         <li>
@@ -43,7 +43,7 @@ function Slider() {
               type="image/jpeg"
               media="(max-width: 1199px)"
             />
-            <img src={Img1} alt="Elvis_inspired_img1" className="sliderImg" />
+            <img src={Img1} alt="Elvis_inspired_img1" className={styles.img} />
           </picture>
         </li>
         <li>
@@ -61,7 +61,7 @@ function Slider() {
             <img
               src={Img2}
               alt="Elvis_inspired_img2"
-              className="sliderImg"
+              className={styles.img}
               loading="lazy"
             />
           </picture>
@@ -81,17 +81,17 @@ function Slider() {
             <img
               src={Img3}
               alt="Elvis_inspired_img3"
-              className="sliderImg"
+              className={styles.img}
               loading="lazy"
             />
           </picture>
         </li>
       </ul>
-      <ul className="sliderIcons">
-        <li className="sliderIcon" onClick={prevSlide}>
+      <ul className={styles.icons}>
+        <li className={styles.icon} onClick={prevSlide}>
           <WestOutlinedIcon color="secondary" />
         </li>
-        <li className="sliderIcon" onClick={nextSlide}>
+        <li className={styles.icon} onClick={nextSlide}>
           <EastOutlinedIcon color="secondary" />
         </li>
       </ul>

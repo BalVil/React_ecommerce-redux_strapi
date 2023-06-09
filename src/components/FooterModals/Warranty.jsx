@@ -15,103 +15,38 @@ function Warranty({ showWarranty }) {
           />
           <ModalTextWrap title={"Warranty Policy"}>
             <p>
-              Welcome to our platform. This Privacy Policy ("Policy") outlines
-              how we collect, use, and disclose information about you when you
-              use our services. It is important to carefully read and understand
-              this Policy before using our services. By accessing or using our
-              services, you acknowledge that you have read, understood, and
-              agreed to be bound by this Policy. If you disagree with any part
-              of this Policy, please refrain from using our services.
-            </p>
-            <p>Information We Collect</p>
-            <p>
-              Personal Information: When you use our services, we may collect
-              personal information from you, such as your name, email address,
-              and any other information you voluntarily provide during the
-              registration process. We only collect the necessary information to
-              provide our services and ensure a personalized experience.
+              Hello, Elvisies.com customers! We are confident in the quality of
+              our products and want you to be as well. That is why we provide a
+              warranty on all of our products.
             </p>
             <p>
-              Usage Information: We automatically collect certain information
-              about your usage patterns when you interact with our services.
-              This may include your IP address, browser type, operating system,
-              device information, log data, and other usage details. This
-              information helps us analyze user behavior and improve our
-              services.
+              For 30 days from the date of purchase, our warranty covers any
+              defects in materials or workmanship. If you have any problems with
+              your item during this time, please contact us and we will work
+              with you to find a solution.
             </p>
             <p>
-              Cookies and Similar Technologies: We use cookies and similar
-              technologies to enhance your experience on our platform. These
-              technologies collect information about your interactions with our
-              services, such as pages visited, time spent on each page, and
-              actions taken. Cookies help us analyze trends, customize content,
-              and improve overall functionality.
-            </p>
-            <p>How We Use Your Information</p>
-            <p>
-              Service Provision: We use the collected information to provide and
-              improve our services, personalize your experience, respond to
-              inquiries, and fulfill your requests. Your information enables us
-              to optimize our platform and tailor it to meet your needs.
+              Simply contact us at support@elvisies.com with your order number
+              and a description of the problem to file a warranty claim. We may
+              request photos or other documentation to better understand the
+              issue.
             </p>
             <p>
-              Communication: We may use your information to communicate with
-              you, including sending important updates, notifications, and
-              promotional materials related to our services. You have the option
-              to opt out of receiving promotional communications.
+              If we determine that your item is under warranty, we will offer
+              you a solution that may include repair, replacement, or a refund.
+              We'll collaborate with you to find the best solution for your
+              specific situation.
             </p>
             <p>
-              Legal Compliance: We may use and disclose your information as
-              required by applicable laws, regulations, legal processes, or
-              governmental requests. Additionally, we may use and disclose your
-              information to enforce our terms of service, protect our rights,
-              privacy, safety, or property, and respond to emergencies.
-            </p>
-            <p>Sharing of Your Information</p>
-            <p>
-              Service Providers: We may share your information with trusted
-              third-party service providers who assist us in operating our
-              services, conducting business activities on our behalf, and
-              providing you with a seamless experience. These service providers
-              are contractually obligated to maintain the confidentiality and
-              security of your information.
+              Damage caused by normal wear and tear, misuse, or neglect is not
+              covered by our warranty. Furthermore, our warranty does not cover
+              any damage that occurs during shipping. Please contact us
+              immediately if you notice any damage to your item during shipping
+              so that we can file a claim with the carrier.
             </p>
             <p>
-              Legal Requirements: We may disclose your information to comply
-              with applicable laws, regulations, legal processes, or
-              governmental requests. This includes responding to subpoenas,
-              court orders, or other legal demands for information.
-            </p>
-            <p>Data Retention and Security</p>
-            <p>
-              Data Retention: We retain your personal information for as long as
-              necessary to fulfill the purposes outlined in this Policy, unless
-              a longer retention period is required or permitted by law. We will
-              securely dispose of your information when it is no longer needed.
-            </p>
-            <p>
-              Data Security: We implement reasonable security measures to
-              protect your information from unauthorized access, disclosure,
-              alteration, or destruction. We employ industry-standard practices
-              to safeguard your data. However, please be aware that no method of
-              transmission over the internet or electronic storage is completely
-              secure, and we cannot guarantee absolute security.
-            </p>
-            <p>Updates to This Policy</p>
-            <p>
-              We reserve the right to update or modify this Policy at any time.
-              We will notify you of any material changes to this Policy by
-              posting the updated version on our website or through other
-              reasonable means. Your continued use of our services after the
-              effective date of any changes to this Policy constitutes your
-              acceptance of such changes.
-            </p>
-            <p>Contact Us</p>
-            <p>
-              If you have any questions, concerns, or requests regarding this
-              Policy or our privacy practices, please contact us at
-              info@bookofthefallengaming.com. We take your privacy seriously and
-              will address any inquiries promptly and professionally.
+              Thank you for taking the time to read our Warranty Policy! We hope
+              you never need it, but if you do, we'll be here to assist you.
             </p>
           </ModalTextWrap>
         </Modal>

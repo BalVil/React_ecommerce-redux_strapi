@@ -14,93 +14,72 @@ function TermsModal({ showTerms }) {
           />
           <ModalTextWrap title={"Terms & Conditions"}>
             <p>
-              We respectfully request that you thoroughly examine and fully
-              comprehend the distinct and comprehensive set of terms and
-              conditions presented herewith before availing yourself of our
-              esteemed Service. It is of utmost importance that you diligently
-              assimilate the unique provisions outlined below. Please be aware
-              that all capitalized terms utilized throughout this agreement
-              retain their designated meaning, irrespective of whether they are
-              employed in a singular or plural form.
+              Hello and welcome to Elvisies.com! We are delighted that you have
+              chosen to shop with us for all of your music-related gift
+              requirements. Before you get started, there are a few things you
+              should know about using our website.
             </p>
             <p>
-              Within the purview of this agreement, references to "the Site,"
-              "We," "Us," or "Our" specifically denote the entity acting as the
-              provider of the Service. The term "Device" encompasses any digital
-              apparatus possessing the capability to connect to and effectively
-              utilize the Service, including, but not limited to, computers,
-              smartphones, or tablets. Importantly, the term "Service" pertains
-              exclusively to the Website, while the term "You" refers to the
-              individual or legal entity accessing or employing the Service.
+              By using our website, you agree to these Terms and Conditions, so
+              please read them thoroughly. If you have any questions or
+              concerns, please contact us. We are always willing to assist!
             </p>
             <p>
-              By accessing or utilizing our Service, you explicitly acknowledge,
-              with utmost clarity, that you have diligently perused,
-              comprehended, and unreservedly consented to be bound by these
-              rigorous and binding Terms and Conditions. These provisions
-              meticulously delineate the inviolable rights and attendant
-              responsibilities applicable to all users, formally establishing
-              the legal relationship that exists between you and the Site.
+              When you place an order on Elvisies, you agree to pay for the
+              items you've chosen as well as any applicable taxes and shipping
+              charges. We accept most major credit and debit cards, as well as
+              PayPal, and our checkout process is simple and straightforward.
             </p>
             <p>
-              It is incumbent upon you, as a conscientious user, to
-              wholeheartedly accept and unwaveringly abide by these
-              comprehensive and distinctive Terms and Conditions in their
-              entirety to enable your unfettered access to and utilization of
-              the Service. Failure to wholeheartedly assent to any aspect of
-              these provisions shall categorically preclude your distinguished
-              utilization of the Service.
+              Please contact us as soon as possible if you need to cancel or
+              modify your order. We will do our best to accommodate your
+              request, but please keep in mind that once an order has been
+              shipped, changes cannot be made.
             </p>
             <p>
-              To gain access to and appropriately employ our esteemed Service,
-              you are required to unequivocally affirm, in no uncertain terms,
-              that you have attained a minimum age of 18 years. This requirement
-              underscores our commitment to responsible usage, as the Service is
-              exclusively intended for mature individuals of 18 years and above.
-              We prioritize the creation of a secure and reliable digital
-              environment.
+              We provide fast and dependable shipping to most destinations
+              worldwide. We'll send you a tracking number once your order has
+              been processed so you can keep track of its progress.
             </p>
             <p>
-              In conjunction with these exceptional Terms and Conditions, your
-              usage of the Service is subject to the comprehensive regulation
-              set forth in our esteemed Privacy Policy. We respectfully urge you
-              to meticulously peruse and assimilate the contents of our privacy
-              policy, as it meticulously expounds upon our exceptional practices
-              concerning the collection, utilization, and disclosure of your
-              personal information during your tenure as a valued Service user.
-              Our Privacy Policy serves as a testament to our commitment to
-              safeguarding your privacy rights and elucidates the legal
-              safeguards meticulously afforded to you.
+              Please keep in mind that delivery times will vary depending on
+              your location and the shipping method you select. We are not
+              liable for any delays or problems caused by the shipping carrier
+              or customs, but we will do our best to assist you in resolving any
+              issues.
             </p>
             <p>
-              Please be advised that the Service may include notable hyperlinks
-              to third-party websites. However, to the maximum extent permitted
-              by applicable law, the Site and its esteemed suppliers
-              categorically disavow any liability for any special, incidental,
-              indirect, or consequential damages that may arise from or be
-              inextricably linked to the use or inability to use the Service.
-              These damages encompass, but are not limited to, the loss of
-              profits, data, or other valuable information, as well as the
-              interruption of business operations, personal injury, or breaches
-              of privacy.
+              We want you to be completely satisfied with your Elvisies
+              purchase. If you are unhappy with your order for any reason,
+              please notify us within 14 days of receipt and we will gladly
+              issue a refund or exchange. Keep in mind that some items, such as
+              personalized or customized items, may not be eligible for return
+              or exchange.
             </p>
             <p>
-              The Service is unreservedly provided to you on an "AS IS" and "AS
-              AVAILABLE" basis, acknowledging the presence of certain inherent
-              flaws and imperfections that lie beyond the scope of any warranty,
-              whether express, implied, statutory, or otherwise. To the maximum
-              extent permitted by applicable law, the Site, its esteemed
-              affiliates, licensors, and service providers explicitly renounce
-              all warranties, including implied warranties of merchantability,
-              fitness for a specific purpose, title, and non-infringement. We
-              aim to maintain transparency and emphasize that the Service is
-              subject to inherent limitations and may not always operate
-              flawlessly.
+              All content on our website, including text, graphics, logos,
+              images, and software, is the property of Elvisies or our partners
+              and is protected by international copyright laws. You may not
+              reproduce, modify, distribute, or display any of our content
+              without our prior written permission.
             </p>
             <p>
-              If you have any queries or concerns regarding these formal Terms
-              and Conditions, we kindly invite you to contact us via the
-              following email address: support@wildscrowns.com.
+              We make every effort to provide accurate and reliable information
+              on our website, but we make no guarantees or warranties about the
+              content's accuracy, completeness, or reliability. We are not
+              responsible for any damages or losses caused by your use of our
+              website, including but not limited to direct, indirect,
+              incidental, punitive, or consequential damages.
+            </p>
+            <p>
+              We reserve the right to update or modify these Terms and
+              Conditions at any time and without notice. Your continued use of
+              our website following any changes signifies your acceptance of the
+              new Terms and Conditions.
+            </p>
+            <p>
+              Thank you for taking the time to read our Terms and Conditions. We
+              hope you have a pleasant shopping experience with Elvisies!
             </p>
           </ModalTextWrap>
         </Modal>
