@@ -8,8 +8,9 @@ import Product from "./pages/Product/Product";
 import Products from "./pages/Products/Products";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import Header from "components/Header/Header";
+import Footer from "components/Footer/Footer";
+import HelmetHead from "components/HelmetHead/HelmetHead";
 import "./styles/global.scss";
 
 const Layout = () => {
@@ -54,6 +55,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
+      <HelmetHead />
       <RouterProvider router={router} />
     </>
   );

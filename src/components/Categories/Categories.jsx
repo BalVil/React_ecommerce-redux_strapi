@@ -1,9 +1,9 @@
 import { Link, NavLink } from "react-router-dom";
-import "./Categories.scss";
+import styles from "./Categories.module.scss";
 
 function Categories() {
   return (
-    <div className="categories">
+    <div className={styles.categories}>
       <h2 className="title">Categories</h2>
       <div className="col">
         <div className="row">
