@@ -11,7 +11,7 @@ import Logo from "../../images/logo.png";
 import Cart from "../Cart/Cart";
 
 function Header() {
-  const [open, setOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const products = useSelector((state) => state.cart.products);
 
   return (
@@ -57,7 +57,7 @@ function Header() {
             </li>
             <li className={styles.icons}>
               <SearchIcon />
-              <div className={styles.icon} onClick={() => setOpen(!open)}>
+              <div className={styles.icon} onClick={() => setIsOpen(!isOpen)}>
                 <ShoppingCartOutlinedIcon />
                 <span className={styles.amount}>{products.length}</span>
               </div>
@@ -66,7 +66,7 @@ function Header() {
         </div>
       </Container>
 
-      {open && <Cart />}
+      {isOpen && <Cart />}
     </header>
   );
 }
